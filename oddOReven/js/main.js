@@ -40,3 +40,20 @@ function sum() {
         console.log(result, sum);
     }
 }
+
+//DEFINIRE VINCITORE//
+
+let win = '';
+
+
+if (result === 'pari' && userChoice === 'pari') {
+    win = 'Hai vinto';
+
+} else if (result === 'dispari' && userChoice === 'dispari') {
+    win = 'Hai vinto';
+
+} else {
+    win = 'Hai perso';
+}
+
+console.log(win);
